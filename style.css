@@ -1,0 +1,198 @@
+/* PC用CSS */
+@media print, screen and (min-width: 640px) { 
+    body{
+        background-color: #f9f9f9;
+        z-index: 0;
+        font-family:
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    }
+    .header{
+        position: absolute;
+        background-color:darkred;
+        height: 80px;
+        width: 100%;
+        left: 0;
+        top :0;
+        z-index: 1;
+    
+    }
+    .home-icon{
+        position: absolute;
+        width: 40px;
+        margin-top: -75px;
+        margin-left: 95%;
+    }
+    .home-icon p{
+        color: white;
+        position: absolute;
+        margin-top: 0px;
+        font-size: 13px;
+        margin-left: 1px;
+    }
+    .icon{
+        width: 40px;
+    }
+    #logo{
+        margin-top: 15px;
+        color:white;
+        font-size:35px;
+        padding-left: 100px;
+        z-index: 2;
+    }
+    
+    #nanmonme{
+        position: absolute;    
+        margin-top: 150px;
+        margin-left: 150px;
+        z-index: 3;
+        font-size: 35px;
+    }
+    #mondai{
+        position: absolute;
+        z-index: 3;
+        margin: 200px 150px;
+        font-size: 35px;
+    }
+    
+    #answerform{
+        padding-top: 35%;
+        padding-left: 28%;
+    }
+    
+    #answer{
+        width: 500px;
+        height: 46px;
+        font-size: 35px;
+    }
+    
+    .okbtn{
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+        outline: none;
+        background-color: darkred;
+        color: white;
+        border: none;
+        font-size: 35px;
+    }
+    #score{
+        padding-top: 150px;
+        position: absolute;
+        font-size: 70px;
+        padding-left: 30px;
+    }
+    .form{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .form label{
+        font-size: 20px;
+    }
+    #mondai_name{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    #file1{
+        margin-top: 15px;
+    }
+    #file2{
+        margin-top: 15px;
+    }
+    h4{
+        color: darkred;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    #make_button{
+        background-color: darkred;
+        color: #f8f8f8;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    #make_button p{
+        padding-top: 10px;
+        padding-left: 35px;
+        font-size: 20px;
+    }
+}
+/* スマートフォン用CSS */
+@media screen and (max-width: 640px) {
+
+    img{
+    max-width: 100%;
+    height: auto;
+    width :auto;
+    }
+    
+    /* ここから通常のCSS */
+    body{
+        background-color: #f9f9f9;
+        z-index: 0;
+        font-family:
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;;
+    }
+    .header{
+        position: absolute;
+        background-color:rgb(255, 136, 0);
+        height: 70px;
+        width: 100%;
+        left: 0;
+        top :0;
+        z-index: 1;
+    
+    }
+    #logo{
+        color:white;
+        font-size:25px;
+        padding-left: 60px;
+        z-index: 2;
+    }
+    #nanmonme{
+        position: absolute;    
+        margin: 100px 30px;
+        z-index: 3;
+    }
+    #mondai{
+        position: absolute;
+        z-index: 3;
+        margin: 150px 30px;
+        font-size: 17px;
+    }
+    
+    #answerform{
+        padding-top: 350px;
+        padding-left: 30px;
+    }
+    
+    #answer{
+        width: 180px;
+        height: 21px;
+        font-size: 15px;
+    }
+    
+    .okbtn{
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        outline: none;
+        background-color: rgb(255, 136, 0);
+        color: white;
+        border: none;
+        font-size: 13px;
+    }
+    #score{
+        padding-top: 150px;
+        position: absolute;
+        font-size: 70px;
+        padding-left: 30px;
+    }    
+}

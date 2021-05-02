@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>英単語一問一答</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="logo">英単語一問一答</h1>
+        <div class="home-icon">
+            <a href="index.html">
+                <img src="home.png" class="icon">
+                <p>ホーム</p>
+            </a>
+        </div>
+    </div>
+
+    <form name="myform" class="form">
+        <label>問題名</label>
+        <input type="text" id="mondai_name" placeholder="ここに問題名を入力"><br>
+        <h4>問題のファイルをアップロード</h4>
+        <input name="myfile1" type="file" id="file1"><br>
+        <h4>解答のファイルをアップロード</h4>
+        <input name="myfile2" type="file" id="file2"><br>   
+        <div id="make_button" onclick="make_question()"><p>問題を作成</p></div>     
+    </form>
+    <h3 id="nanmonme"></h3>
+    <div id="mondai"></div>
+    <diV id="score"></diV>
+    <div id="answerform">
+        <input type="text" id="answer" placeholder="解答を入力">
+        <button onclick="judge()" class="okbtn">OK</button>
+    </div>
+</body>
+
+</html>
